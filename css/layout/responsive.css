@@ -1,0 +1,161 @@
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero-description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-stats {
+        justify-content: center;
+    }
+
+    .hero-images {
+        width: 100%;
+        max-width: 600px;
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 48px;
+    }
+
+    .hero-content h2 {
+        font-size: 36px;
+    }
+
+    .hero-stats {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero-images {
+        height: 400px;
+    }
+
+    .hero-img-top {
+        width: 250px;
+        height: 170px;
+    }
+
+    .hero-img-bottom {
+        width: 280px;
+        height: 200px;
+    }
+
+    .hero-circle-img {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content h2 {
+        font-size: 28px;
+    }
+
+    .hero-description {
+        font-size: 16px;
+    }
+
+    .hero-images {
+        height: 350px;
+    }
+
+    .hero-img-top {
+        width: 200px;
+        height: 140px;
+    }
+
+    .hero-img-bottom {
+        width: 220px;
+        height: 160px;
+    }
+
+    .hero-circle-img {
+        width: 120px;
+        height: 120px;
+        right: 15%;
+    }
+
+    .layout-img-1,
+    .layout-img-2,
+    .layout-img-3,
+    .layout-img-4 {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .about-container {
+        gap: 60px;
+    }
+
+    .section-title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 992px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content {
+        max-width: 100%;
+    }
+
+    .about-image {
+        order: -1;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        padding: 70px 0;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .about-description {
+        font-size: 16px;
+    }
+
+    .about-image img {
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-section {
+        padding: 50px 0;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .section-subtitle {
+        font-size: 16px;
+    }
+}
