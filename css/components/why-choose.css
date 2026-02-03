@@ -1,0 +1,132 @@
+
+
+.why-choose-bg {
+  background:
+    radial-gradient(circle at top left,rgba(255, 255, 255, 1) 0%,rgba(255, 255, 255, 0.85) 35%, rgba(200, 230, 255, 0.35) 65%,rgba(180, 220, 245, 0.25) 100%);
+}
+
+
+.why-choose-section {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+.usp-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.vector {
+    background-color: #2B7FFC;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+.usp-title {
+    font-size: 16px;
+    font-weight: 600;
+    font-style: semibold;
+    line-height: 24px;
+    color: #121212;
+    margin-bottom: 8px;
+}
+
+.usp-description {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #696565;
+}
+
+
+.why-choose-image {
+    flex: 1;
+    position: relative;
+}
+
+.why-choose-image img {
+    width: 699px;
+    height: 478px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.why-choose-image-2 {
+    flex: 1;
+    position: relative;
+}
+
+.why-choose-image-2 img {
+    width: 337px;
+    height: 304px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-top: 24px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+
+.right-bottom-container {
+    display: flex;
+    gap: 94px;
+    align-items: center;
+    position: relative;
+    left: 14%;
+}
+
+.right-bottom-left {
+    margin-top: 40px;
+}
+
+.client-images {
+    display: flex;
+    margin-left: 25px;
+}
+
+.client-img-1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.client-img-2 {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    object-fit: cover;
+    position: relative;
+    right: 14%;
+}
+
+.right-bottom-container h3 {
+    font-size: 24px;
+    font-weight: 500;
+    font-style: medium;
+    margin-bottom: -30px;
+}
+
+
+.rattings {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.rattings-title {
+    margin-bottom: 0px;
+}
+
+.rattings h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.rattings-div {
+    margin-bottom: 10px;
+}
