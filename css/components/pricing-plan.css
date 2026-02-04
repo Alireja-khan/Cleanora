@@ -1,0 +1,117 @@
+
+
+.pricing-plan-section {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+.section-header {
+    width: 793px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.pricing-section-name {
+    margin-left: 35%;
+}
+
+.pricing-container {
+    width: 1420px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin: auto;
+}
+
+.plan-name {
+    font-size: 24px;
+    font-weight: 500;
+    font-style: medium;
+    color: #121211;
+    margin: 0 0 10px 0;
+}
+
+.plan-price {
+    font-size: 16px;
+    font-weight: 400;
+    color: #696565;
+    margin: 0 0 15px 0;
+}
+
+.plan-descripton {
+    font-size: 12px;
+    margin: 0 0 0px 0;
+}
+
+.plan-price span {
+    font-size: 40px;
+    font-weight: 600;
+    font-weight: Semibold;
+    color: #121211;
+}
+
+.plan-1 {
+    background-color: #F1F8FF;
+    padding: 37px 41px 36px 14px;
+    border-radius: 8px;
+}
+
+.plan-2 {
+    background-color: #F6FCF8;
+    padding: 37px 41px 36px 14px;
+    border-radius: 8px;
+}
+
+.plan-3 {
+    background-color: #F1F8FF;
+    padding: 37px 41px 36px 14px;
+    border-radius: 8px;
+}
+
+.plan-list-container {
+    list-style: none;
+    padding-left: 0;
+}
+
+.plans-container {
+    box-shadow: 0 0px 3px #BDBDBD40;
+    border-radius: 16px;
+}
+
+.inner-plans-container {
+    padding: 16px;
+}
+
+.plan-list {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.plan-1-btn {
+    padding: 12px 173px;
+    
+    border: none;
+    border-radius: 8px;
+    background-color: #2B7FFC;
+    color: #ffffff;
+    
+}
+
+.plan-2-btn {
+    padding: 12px 173px;
+    
+    border: none;
+    border-radius: 8px;
+    background-color: #3CC47C;
+    color: #ffffff;
+}
+
+.plan-3-btn {
+    padding: 12px 173px;
+    
+    border: none;
+    border-radius: 8px;
+    background-color: #2B7FFC;
+    color: #ffffff;
+}
