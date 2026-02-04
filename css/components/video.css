@@ -1,0 +1,25 @@
+.video-section {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+.video-container {
+    width: 1420px;
+    margin: auto;
+    position: relative;
+}
+
+.video-image {
+    width: 1420px;
+    height: 567px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
