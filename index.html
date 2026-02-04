@@ -401,5 +401,61 @@
 
     </section>
 
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="booking-modal">
+        <div class="booking-modal-content">
+            <span class="close" id="closeBookingModal">&times;</span>
+            <h2 id="modalTitle">Book Your Cleaning Service</h2>
+            <p id="modalDescription"></p>
+            
+            <div class="booking-details">
+                <div class="form-group">
+                    <label for="serviceType">Service Type:</label>
+                    <input type="text" id="serviceType" readonly>
+                </div>
+                
+                <div class="form-group">
+                    <label for="servicePrice">Price:</label>
+                    <input type="text" id="servicePrice" readonly>
+                </div>
+                
+                <div class="form-group">
+                    <label for="bookingDate">Select Date:</label>
+                    <input type="date" id="bookingDate" min="" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="bookingTime">Select Time:</label>
+                    <select id="bookingTime" required>
+                        <option value="9:00 AM">9:00 AM</option>
+                        <option value="11:00 AM">11:00 AM</option>
+                        <option value="1:00 PM">1:00 PM</option>
+                        <option value="3:00 PM">3:00 PM</option>
+                        <option value="5:00 PM">5:00 PM</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="customerName">Your Name:</label>
+                    <input type="text" id="customerName" placeholder="Enter your name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="customerEmail">Email:</label>
+                    <input type="email" id="customerEmail" placeholder="Enter your email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="customerPhone">Phone:</label>
+                    <input type="tel" id="customerPhone" placeholder="Enter your phone number">
+                </div>
+            </div>
+            
+            <button id="scheduleBooking" class="btn-primary">Schedule in Google Calendar</button>
+            <button id="cancelBooking" class="btn-secondary">Cancel</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
-</htm
+</htm>
